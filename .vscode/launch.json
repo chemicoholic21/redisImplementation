@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Main Application",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Redis Examples",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/redis_examples.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Excel Examples",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/excel_examples.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Redis-Excel Integration",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/redis_excel_integration.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
